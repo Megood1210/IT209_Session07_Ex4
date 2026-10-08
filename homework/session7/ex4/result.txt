@@ -1,0 +1,44 @@
+===== KIEM TRA CAU HINH NGINX =====
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+===== KIEM TRA TRANG TINH =====
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Wed, 07 Oct 2026 15:21:59 GMT
+Content-Type: text/html
+Content-Length: 259
+Last-Modified: Wed, 07 Oct 2026 04:00:56 GMT
+Connection: keep-alive
+ETag: "6ac5c3f8-103"
+Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin học viên</title>
+</head>
+<body>
+    <h1>Spring Boot và Nginx Reverse Proxy</h1>
+    <p>Họ tên: Đặng Khánh An</p>
+    <p>Mã lớp: PTIT070</p>
+</body>
+</html>
+
+===== KIEM TRA SPRING BOOT TRUC TIEP =====
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 30
+Date: Wed, 07 Oct 2026 15:21:59 GMT
+
+Spring Boot backend is running
+===== KIEM TRA API QUA NGINX =====
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Wed, 07 Oct 2026 15:21:59 GMT
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 30
+Connection: keep-alive
+
+Spring Boot backend is running
